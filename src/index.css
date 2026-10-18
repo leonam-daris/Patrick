@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-display: "Cinzel", "Cormorant Garamond", serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-brand-navy: #1B2A4A;
+  --color-brand-navy-dark: #101B30;
+  --color-brand-navy-light: #2A3E66;
+  --color-brand-gold: #B38E5D;
+  --color-brand-gold-light: #C9A779;
+  --color-brand-gold-dark: #8F6D40;
+  --color-brand-cream: #FAF9F6;
+  --color-brand-sand: #F3EFE6;
+}
+
+/* Prevent any horizontal page overflow in all viewports */
+html, body, #root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbars for reader and modal */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Reader modes */
+.reader-sepia {
+  background-color: #F8F1E5 !important;
+  color: #382E24 !important;
+}
+.reader-sepia .reader-card {
+  background-color: #EFE6D5 !important;
+  border-color: #DDD1BC !important;
+}
+.reader-dark {
+  background-color: #121824 !important;
+  color: #E2E8F0 !important;
+}
+.reader-dark .reader-card {
+  background-color: #1A2234 !important;
+  border-color: #2D3A54 !important;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Patrick Ramon | Psicologia Clínica & Portal do Aluno",
+  "description": "Portal oficial do Psicólogo Patrick Ramon (CRP 09/22010): cursos de desenvolvimento humano, regulação emocional, e-books práticos, dashboard de progresso e ambiente acadêmico do aluno.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

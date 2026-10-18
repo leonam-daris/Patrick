@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 100" fill="none">
+  <defs>
+    <linearGradient id="prGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4A759" />
+      <stop offset="50%" stop-color="#C09349" />
+      <stop offset="100%" stop-color="#A87B33" />
+    </linearGradient>
+  </defs>
+
+  <!-- PR Interlocking Monogram (Exact reproduction of patrick.png) -->
+  <g id="monogram">
+    <!-- Letter P (Deep Navy #0A192F) -->
+    <!-- P Vertical Stem & Bracketed Serifs -->
+    <path d="M12 12 H36 V17 H28 V80 H36 V85 H12 V80 H20 V17 H12 V12 Z" fill="#0A192F" />
+    <!-- P Upper Arch and Curved Crescent Bowl -->
+    <path d="M28 12 H48 C63 12 73 20 73 34 C73 45 64 54 49 55 L35 55 L58 43 C64 39 67 36 67 33 C67 24 59 18 47 18 H28 V12 Z" fill="#0A192F" />
+
+    <!-- Letter R (Rich Gold #C09349) -->
+    <!-- R Vertical Stem & Serifs -->
+    <path d="M36 29 H56 V33 H48 V80 H58 V85 H33 V80 H41 V33 H36 V29 Z" fill="url(#prGold)" />
+    <!-- R Upper Bowl -->
+    <path d="M48 29 H65 C76 29 83 36 83 46 C83 54 77 60 69 62 C74 65 79 72 85 81 C88 85 92 87 97 87 V89 C91 89 85 86 80 79 C74 70 69 63 61 63 H48 V58 H63 C71 58 76 53 76 46 C76 39 71 34 63 34 H48 V29 Z" fill="url(#prGold)" />
+    <!-- R Calligraphic Sweeping Tail Flourish -->
+    <path d="M64 62 C70 66 76 74 82 82 C87 87 93 89.5 99 89.5 C99 87.5 95 86 91 82.5 C85 76.5 78 68 70 62 Z" fill="url(#prGold)" />
+  </g>
+
+  <!-- Ornate Golden Separator Line with Diamond Bead (matches patrick.png) -->
+  <g id="separator" transform="translate(112, 0)">
+    <line x1="0" y1="12" x2="0" y2="45" stroke="#C09349" stroke-width="1.2" stroke-linecap="round" />
+    <rect x="-3" y="47" width="6" height="6" transform="rotate(45 0 50)" fill="#C09349" />
+    <line x1="0" y1="55" x2="0" y2="88" stroke="#C09349" stroke-width="1.2" stroke-linecap="round" />
+  </g>
+
+  <!-- Typography (matches patrick.png) -->
+  <!-- Top: PATRICK RAMON in Deep Navy -->
+  <text x="135" y="48" font-family="'Cinzel', 'Cormorant Garamond', serif" font-size="28" font-weight="700" fill="#0A192F" letter-spacing="0.14em">
+    PATRICK RAMON
+  </text>
+  <!-- Bottom: PSICÓLOGO | CRP 09|22010 in Rich Gold -->
+  <text x="137" y="74" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#C09349" letter-spacing="0.26em">
+    PSICÓLOGO | CRP 09|22010
+  </text>
+</svg>
